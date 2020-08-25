@@ -1,4 +1,4 @@
-# MarkUnfinished ([Deluge](https://www.deluge-torrent.org) plugin)
+# MarkIncomplete ([Deluge](https://www.deluge-torrent.org) plugin)
 
 Appends a `.!incomplete` extension to all files in the torrent, then renames them back to original as each file finishes downloading.
 
@@ -10,6 +10,6 @@ Appends a `.!incomplete` extension to all files in the torrent, then renames the
 * Only handles torrents that are added after the plugin is installed. Old torrents will be left alone.
 
 ### Installation
-* Download the .egg file from [here](https://github.com/quantumfrost/deluge-markunfinished/releases)
+* Download the .egg file from [here](https://github.com/quantumfrost/deluge-markincomplete/releases)
 * `Edit -> Preferences -> Plugins -> Install`
 * More info [here](https://dev.deluge-torrent.org/wiki/Plugins#InstallingPluginEggs)

@@ -3,7 +3,7 @@
 #
 # Basic plugin template created by the Deluge Team.
 #
-# This file is part of MarkUnfinished and is licensed under GNU GPL 3.0, or later,
+# This file is part of MarkIncomplete and is licensed under GNU GPL 3.0, or later,
 # with the additional special exception to link portions of this program with
 # the OpenSSL library. See LICENSE for more details.
 from __future__ import unicode_literals
@@ -45,9 +45,9 @@ class Core(CorePluginBase):
     eligibility_cache = {}
 
     def enable(self):
-        log.info('Starting MarkUnfinished')
+        log.info('Starting MarkIncomplete')
         self.config = deluge.configmanager.ConfigManager(
-            'markunfinished.conf', DEFAULT_PREFS)
+            'markincomplete.conf', DEFAULT_PREFS)
         self.extension = self.config['extension']
         # noinspection PyTypeChecker
         self.core = component.get('Core')
@@ -74,7 +74,7 @@ class Core(CorePluginBase):
 
     def disable(self):
         self.update_config()
-        log.info('MarkUnfinished disabled')
+        log.info('MarkIncomplete disabled')
 
     def update_config(self):
         log.info('Updating extension in config from %s to %s', self.config['extension'], self.extension)

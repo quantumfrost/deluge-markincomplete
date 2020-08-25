@@ -3,7 +3,7 @@
 #
 # Basic plugin template created by the Deluge Team.
 #
-# This file is part of MarkUnfinished and is licensed under GNU GPL 3.0, or later,
+# This file is part of MarkIncomplete and is licensed under GNU GPL 3.0, or later,
 # with the additional special exception to link portions of this program with
 # the OpenSSL library. See LICENSE for more details.
 from deluge.plugins.init import PluginInitBase

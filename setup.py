@@ -3,12 +3,12 @@
 #
 # Basic plugin template created by the Deluge Team.
 #
-# This file is part of MarkUnfinished and is licensed under GNU GPL 3.0, or later,
+# This file is part of MarkIncomplete and is licensed under GNU GPL 3.0, or later,
 # with the additional special exception to link portions of this program with
 # the OpenSSL library. See LICENSE for more details.
 from setuptools import find_packages, setup
 
-__plugin_name__ = 'MarkUnfinished'
+__plugin_name__ = 'MarkIncomplete'
 __author__ = 'Chinmaya Dabral'
 __author_email__ = 'quantcon11@gmail.com'
 __version__ = '0.1'
